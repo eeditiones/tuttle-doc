@@ -6,7 +6,7 @@ tags: ["git", "tuttle"]
 weight: 1
 ---
 
-![Tuttle logo](../../images/HPTuttle-1866.png)
+![Tuttle logo](/images/HPTuttle-1866.png)
 
 ***Tuttle*** is an eXist-db application that adds version control to data collections in eXist-db.
 
