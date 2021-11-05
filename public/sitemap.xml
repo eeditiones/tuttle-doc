@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://eeditiones.github.io/tuttle-doc/general/tuttle/</loc>
+    <loc>https://eeditiones.github.io/tuttle-doc/getstarted/tuttle/</loc>
     <lastmod>2021-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eeditiones.github.io/tuttle-doc/general/</loc>
+    <loc>https://eeditiones.github.io/tuttle-doc/getstarted/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eeditiones.github.io/tuttle-doc/general/requirements/</loc>
+    <loc>https://eeditiones.github.io/tuttle-doc/getstarted/requirements/</loc>
     <lastmod>2021-11-03T15:15:41+01:00</lastmod>
   </url><url>
     <loc>https://eeditiones.github.io/tuttle-doc/faq/types/</loc>
@@ -17,7 +17,7 @@
     <loc>https://eeditiones.github.io/tuttle-doc/</loc>
     <lastmod>2020-12-11T10:42:31+01:00</lastmod>
   </url><url>
-    <loc>https://eeditiones.github.io/tuttle-doc/general/configuration/</loc>
+    <loc>https://eeditiones.github.io/tuttle-doc/getstarted/configuration/</loc>
     <lastmod>2020-12-11T20:35:42+01:00</lastmod>
   </url><url>
     <loc>https://eeditiones.github.io/tuttle-doc/faq/multiple/</loc>
@@ -26,7 +26,7 @@
     <loc>https://eeditiones.github.io/tuttle-doc/faq/limitations/</loc>
     <lastmod>2020-12-11T20:35:42+01:00</lastmod>
   </url><url>
-    <loc>https://eeditiones.github.io/tuttle-doc/general/use/</loc>
+    <loc>https://eeditiones.github.io/tuttle-doc/getstarted/use/</loc>
     <lastmod>2021-11-05T12:58:11+01:00</lastmod>
   </url><url>
     <loc>https://eeditiones.github.io/tuttle-doc/tags/git/</loc>
