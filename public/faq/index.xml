@@ -10,7 +10,7 @@
     <item>
       <title>Which Git providers are supported?</title>
       <link>https://eeditiones.github.io/tuttle-doc/faq/types/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eeditiones.github.io/tuttle-doc/faq/types/</guid>
       <description>Tuttle supports either Github and Gitlab repositories.</description>
@@ -25,15 +25,6 @@
       <description>Yes. It&amp;rsquo;s possible to configure multiple repositories even of different types.
 So for instance you can have one Gitlab repository connected to one target collection in the database and another collection that is bound to a Github repository somewhere else.
 Each configuration item will correspond to exactly one target collection. However target collections must not be nested as that would cause trouble.</description>
-    </item>
-    
-    <item>
-      <title>What are the limitations?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/limitations/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/limitations/</guid>
-      <description></description>
     </item>
     
     <item>

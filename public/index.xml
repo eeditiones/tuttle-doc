@@ -19,6 +19,15 @@ Tuttle wraps the APIs of the Git service providers under a single, common OpenAP
     </item>
     
     <item>
+      <title>Which Git providers are supported?</title>
+      <link>https://eeditiones.github.io/tuttle-doc/faq/types/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eeditiones.github.io/tuttle-doc/faq/types/</guid>
+      <description>Tuttle supports either Github and Gitlab repositories.</description>
+    </item>
+    
+    <item>
       <title>What is needed to use Tuttle?</title>
       <link>https://eeditiones.github.io/tuttle-doc/getstarted/requirements/</link>
       <pubDate>Wed, 03 Nov 2021 15:15:41 +0100</pubDate>
@@ -30,12 +39,14 @@ Tuttle wraps the APIs of the Git service providers under a single, common OpenAP
     </item>
     
     <item>
-      <title>Which Git providers are supported?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/types/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
+      <title>Can i have multiple repositories?</title>
+      <link>https://eeditiones.github.io/tuttle-doc/faq/multiple/</link>
+      <pubDate>Wed, 03 Nov 2021 13:32:17 +0100</pubDate>
       
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/types/</guid>
-      <description>Tuttle supports either Github and Gitlab repositories.</description>
+      <guid>https://eeditiones.github.io/tuttle-doc/faq/multiple/</guid>
+      <description>Yes. It&amp;rsquo;s possible to configure multiple repositories even of different types.
+So for instance you can have one Gitlab repository connected to one target collection in the database and another collection that is bound to a Github repository somewhere else.
+Each configuration item will correspond to exactly one target collection. However target collections must not be nested as that would cause trouble.</description>
     </item>
     
     <item>
@@ -51,23 +62,14 @@ Below is an example configuration that shows an example for either Github and Gi
     </item>
     
     <item>
-      <title>Can i have multiple repositories?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/multiple/</link>
-      <pubDate>Wed, 03 Nov 2021 13:32:17 +0100</pubDate>
+      <title>How to get an auth token</title>
+      <link>https://eeditiones.github.io/tuttle-doc/faq/auth/</link>
+      <pubDate>Tue, 02 Nov 2021 18:16:14 +0100</pubDate>
       
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/multiple/</guid>
-      <description>Yes. It&amp;rsquo;s possible to configure multiple repositories even of different types.
-So for instance you can have one Gitlab repository connected to one target collection in the database and another collection that is bound to a Github repository somewhere else.
-Each configuration item will correspond to exactly one target collection. However target collections must not be nested as that would cause trouble.</description>
-    </item>
-    
-    <item>
-      <title>What are the limitations?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/limitations/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/limitations/</guid>
-      <description></description>
+      <guid>https://eeditiones.github.io/tuttle-doc/faq/auth/</guid>
+      <description>Please refer to the respective documention.
+Github - creating a personal access token
+Gitlab - Personal access tokens</description>
     </item>
     
     <item>
@@ -77,18 +79,7 @@ Each configuration item will correspond to exactly one target collection. Howeve
       
       <guid>https://eeditiones.github.io/tuttle-doc/getstarted/use/</guid>
       <description>in the pictures below the Github Logo is used but Gitlab can be used the same way
- Git as the &amp;lsquo;source of truth&amp;rsquo; With &amp;lsquo;Git to DB&amp;rsquo; editors will work with their own tools and push changes to Git. The data are kept in Git and are deployed to TEI-Publisher on demand or automatically by an Git action. Data can be updated completely or incrementally just applying the changes since last update.</description>
-    </item>
-    
-    <item>
-      <title>How to get an auth token</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/auth/</link>
-      <pubDate>Tue, 02 Nov 2021 18:16:14 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/auth/</guid>
-      <description>Please refer to the respective documention.
-Github - creating a personal access token
-Gitlab - Personal access tokens</description>
+ Git as the &amp;lsquo;source of truth&amp;rsquo; With &amp;lsquo;Git to DB&amp;rsquo; editors will work with their own tools and push changes to Git. The data are kept in Git and are deployed to eXist-db on demand or automatically by an Git action. Data can be updated completely or incrementally just applying the changes since last update.</description>
     </item>
     
   </channel>

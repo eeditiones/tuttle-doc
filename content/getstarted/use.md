@@ -2,7 +2,6 @@
 title: "how to use Tuttle?"
 menuTitle: "how to use"
 date: 2021-11-05T12:58:11+01:00
-tags: []
 ---
 
 {{% notice note %}}
@@ -12,10 +11,10 @@ in the pictures below the Github Logo is used but Gitlab can be used the same wa
 
 ![Git 2 DB](/tuttle-doc/images/git2db.png)
 
-### Git as the 'source of truth'
+### From Git to eXist-db
 
 With 'Git to DB' editors will work with their own tools and push changes to Git. 
-The data are kept in Git and are deployed to TEI-Publisher
+The data are kept in Git and are deployed to eXist-db
 on demand or automatically by an Git action. Data can be updated completely or incrementally just applying
 the changes since last update.
 

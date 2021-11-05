@@ -2,6 +2,7 @@
 title: "How to get an auth token"
 date: 2021-11-02T18:16:14+01:00
 tags: ["Github", "Gitlab", "Authentication"]
+weight: 4
 ---
 
 Please refer to the respective documention.

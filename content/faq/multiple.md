@@ -3,7 +3,7 @@ title: "Can i have multiple repositories?"
 menuTitle: "Multiple repositories"
 date: 2021-11-03T13:32:17+01:00
 tags: ["git","repository", "Github","Gitlab"]
-weight: 5
+weight: 2
 ---
 
 Yes. It's possible to configure multiple repositories even of different types.

@@ -17,18 +17,9 @@
     </item>
     
     <item>
-      <title>tuttle</title>
-      <link>https://eeditiones.github.io/tuttle-doc/tags/tuttle/</link>
-      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/tags/tuttle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Github</title>
       <link>https://eeditiones.github.io/tuttle-doc/tags/github/</link>
-      <pubDate>Wed, 03 Nov 2021 15:15:41 +0100</pubDate>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eeditiones.github.io/tuttle-doc/tags/github/</guid>
       <description></description>
@@ -37,9 +28,18 @@
     <item>
       <title>Gitlab</title>
       <link>https://eeditiones.github.io/tuttle-doc/tags/gitlab/</link>
-      <pubDate>Wed, 03 Nov 2021 15:15:41 +0100</pubDate>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://eeditiones.github.io/tuttle-doc/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuttle</title>
+      <link>https://eeditiones.github.io/tuttle-doc/tags/tuttle/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://eeditiones.github.io/tuttle-doc/tags/tuttle/</guid>
       <description></description>
     </item>
     
@@ -85,15 +85,6 @@
       <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
       
       <guid>https://eeditiones.github.io/tuttle-doc/tags/configuration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>limitations</title>
-      <link>https://eeditiones.github.io/tuttle-doc/tags/limitations/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/tags/limitations/</guid>
       <description></description>
     </item>
     

@@ -19,15 +19,6 @@ Tuttle wraps the APIs of the Git service providers under a single, common OpenAP
     </item>
     
     <item>
-      <title>Which Git providers are supported?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/types/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/types/</guid>
-      <description>Tuttle supports either Github and Gitlab repositories.</description>
-    </item>
-    
-    <item>
       <title>How to configure Tuttle?</title>
       <link>https://eeditiones.github.io/tuttle-doc/getstarted/configuration/</link>
       <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
@@ -37,15 +28,6 @@ Tuttle wraps the APIs of the Git service providers under a single, common OpenAP
 You may use eXide to edit the config.xqm.
 Below is an example configuration that shows an example for either Github and Gitlab. Due to the different API of these services the configuration differs sligtly. See parameter description below.
 (:~ : Git configuration :) declare variable $config:collections := map { &amp;quot;sample-collection-github&amp;quot; : map { &amp;quot;vcs&amp;quot; : &amp;quot;github&amp;quot;, &amp;quot;baseurl&amp;quot; : &amp;quot;https://api.github.com/&amp;quot;, &amp;quot;ref&amp;quot; : &amp;quot;master&amp;quot;, &amp;quot;token&amp;quot; : &amp;quot;146152be6a9xxxxxxxxxxx71da8f3e4faf263&amp;quot;, &amp;quot;hookuser&amp;quot; : &amp;quot;admin&amp;quot;, &amp;quot;hookpasswd&amp;quot; : &amp;quot;&amp;quot; &amp;quot;owner&amp;quot; : &amp;quot;Jinntec&amp;quot;, &amp;quot;repo&amp;quot; : &amp;quot;tuttle-demo&amp;quot; }, &amp;quot;sample-collection-gitlab&amp;quot; : map { &amp;quot;vcs&amp;quot; : &amp;quot;gitlab&amp;quot;, &amp;quot;baseurl&amp;quot; : &amp;quot;https://gitlab.</description>
-    </item>
-    
-    <item>
-      <title>What are the limitations?</title>
-      <link>https://eeditiones.github.io/tuttle-doc/faq/limitations/</link>
-      <pubDate>Fri, 11 Dec 2020 20:35:42 +0100</pubDate>
-      
-      <guid>https://eeditiones.github.io/tuttle-doc/faq/limitations/</guid>
-      <description></description>
     </item>
     
   </channel>
