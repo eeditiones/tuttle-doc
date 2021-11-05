@@ -1,4 +1,4 @@
-baseURL = "https://eeditiones.github.io/"
+baseURL = "https://eeditiones.github.io/tuttle-doc"
 languageCode = "en-us"
 title = "Tuttle Documentation"
 theme = "learn"
