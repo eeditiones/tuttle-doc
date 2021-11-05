@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>setup on Tuttle Documentation</title>
+    <link>http://localhost:1313/tags/setup/</link>
+    <description>Recent content in setup on Tuttle Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Nov 2021 15:15:41 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is needed to use Tuttle?</title>
+      <link>http://localhost:1313/general/requirements/</link>
+      <pubDate>Wed, 03 Nov 2021 15:15:41 +0100</pubDate>
+      
+      <guid>http://localhost:1313/general/requirements/</guid>
+      <description>1. Access to a repository To use Tuttle access to a repository on Github or Gitlab is necessary. This can be public or private repositories. On-premise servers will of course also work.
+2. Tuttle application You can install the Tuttle application from the eXist-db public repository by using the eXist-db Dashboard.
+3. Access token In order to authenticate to the VCS (version control system) and being allowed to access its API a &amp;lsquo;personal access token&amp;rsquo; is needed.</description>
+    </item>
+    
+  </channel>
+</rss>
