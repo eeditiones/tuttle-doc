@@ -144,14 +144,14 @@ p{
     margin-top: 0;
 }
 
-[data-url="/general/tuttle/"] img{
+[data-url="/tuttle-doc/getstarted/tuttle/"] img{
     border-radius:50%;
 }
 th:nth-child(1){
     width: 20%;
 }
 
-[data-url="/getstarted/use/"] tr:nth-child(1) td:nth-child(1){
+[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(1) td:nth-child(1){
     background: var(--status-new);
     color:white;
 }

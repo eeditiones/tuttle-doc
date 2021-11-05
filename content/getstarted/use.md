@@ -10,7 +10,7 @@ in the pictures below the Github Logo is used but Gitlab can be used the same wa
 {{% /notice %}}
 
 
-![Git 2 DB](/images/git2db.png)
+![Git 2 DB](/tuttle-doc/images/git2db.png)
 
 ### Git as the 'source of truth'
 
@@ -21,7 +21,7 @@ the changes since last update.
 
 There is a simple dashboard to trigger the updating of data and checking the status of connected repositories.
 
-![DB 2 Git](/images/dashboard.png)
+![DB 2 Git](/tuttle-doc/images/dashboard.png)
 
 When opening the dashboard the status of the configured repositories is requested. The colors of
 of the rows signal the status of the respective repository.
