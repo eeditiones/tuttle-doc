@@ -24,11 +24,7 @@ is needed. This can be obtained from the respective service-provider.
  
 See ['how to get an auth token'](/git/auth/)
 
-### 4. TEI-Publisher
-
-Tuttle is integrated with TEI-Publisher. In order to use it a TEI-Publisher instance is required.
-
-### 5. Data collection
+### 4. Data collection
 
 The data collection that is referred to in the Tuttle configuration must exist (even if empty) before you can
 deploy data to it. Otherwise Tuttle will fail to deploy the data.
