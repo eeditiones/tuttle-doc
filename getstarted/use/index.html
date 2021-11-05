@@ -5,7 +5,7 @@
 <meta name=generator content="Hugo 0.89.0">
 <meta name=description content>
 <link rel=icon href=/tuttle-doc/images/favicon.png type=image/png>
-<title>Github :: Tuttle Documentation</title>
+<title>how to use Tuttle? :: Tuttle Documentation</title>
 <link href=/tuttle-doc/css/nucleus.css?1636125847 rel=stylesheet>
 <link href=/tuttle-doc/css/fontawesome-all.min.css?1636125847 rel=stylesheet>
 <link href=/tuttle-doc/css/hybrid.css?1636125847 rel=stylesheet>
@@ -19,7 +19,7 @@
 <script src=/tuttle-doc/js/jquery-3.3.1.min.js?1636125847></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/tuttle-doc/tags/github/>
+<body data-url=/tuttle-doc/getstarted/use/>
 <nav id=sidebar>
 <div id=header-wrapper>
 <div id=header>
@@ -47,7 +47,8 @@
 </section>
 <div class=highlightable>
 <ul class=topics>
-<li data-nav-id=/tuttle-doc/getstarted/ title="Get started" class=dd-item>
+<li data-nav-id=/tuttle-doc/getstarted/ title="Get started" class="dd-item
+parent">
 <a href=/tuttle-doc/getstarted/>
 Get started
 </a>
@@ -67,7 +68,7 @@ Requirements
 Configuration
 </a>
 </li>
-<li data-nav-id=/tuttle-doc/getstarted/use/ title="how to use Tuttle?" class=dd-item>
+<li data-nav-id=/tuttle-doc/getstarted/use/ title="how to use Tuttle?" class="dd-item active">
 <a href=/tuttle-doc/getstarted/use/>
 how to use
 </a>
@@ -120,6 +121,12 @@ How to get an auth token
 <div class="padding highlightable">
 <div>
 <div id=top-bar>
+<div id=top-github-link>
+<a class=github-link title="Edit this page" href=https://github.com/eeditiones/tuttle-doc/edit/master/content/getstarted/use.md target=blank>
+<i class="fas fa-code-branch"></i>
+<span id=top-github-link-text>Edit this page</span>
+</a>
+</div>
 <div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
 <span id=sidebar-toggle-span>
 <a href=# id=sidebar-toggle data-sidebar-toggle>
@@ -128,11 +135,20 @@ How to get an auth token
 </span>
 <span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/tuttle-doc/>Frequently Asked Questions</a> > <a href=/tuttle-doc/tags/>Tags</a> > Github
+<a href=/tuttle-doc/>Frequently Asked Questions</a> > <a href=/tuttle-doc/getstarted/>Get started</a> > how to use Tuttle?
 </span>
 </div>
 <div class=progress>
 <div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#git-as-the-source-of-truth>Git as the &lsquo;source of truth&rsquo;</a></li>
+</ul>
+</li>
+</ul>
+</nav>
 </div>
 </div>
 </div>
@@ -141,22 +157,56 @@ How to get an auth token
 </div>
 <div id=body-inner>
 <h1>
-tag ::
-Tags
+Get started
 </h1>
-<ul>
-<li><a href=/tuttle-doc/getstarted/requirements/>What is needed to use Tuttle?</a></li>
-<li><a href=/tuttle-doc/faq/types/>Which Git providers are supported?</a></li>
-<li><a href=/tuttle-doc/getstarted/configuration/>How to configure Tuttle?</a></li>
-<li><a href=/tuttle-doc/faq/multiple/>Can i have multiple repositories?</a></li>
-<li><a href=/tuttle-doc/faq/auth/>How to get an auth token</a></li>
-</ul>
+<h2>
+how to use Tuttle?
+</h2>
+<div class="notices note"><p>in the pictures below the Github Logo is used but Gitlab can be used the same way</p>
+</div>
+<p><img src=/images/git2db.png alt="Git 2 DB"></p>
+<h3 id=git-as-the-source-of-truth>Git as the &lsquo;source of truth&rsquo;</h3>
+<p>With &lsquo;Git to DB&rsquo; editors will work with their own tools and push changes to Git.
+The data are kept in Git and are deployed to TEI-Publisher
+on demand or automatically by an Git action. Data can be updated completely or incrementally just applying
+the changes since last update.</p>
+<p>There is a simple dashboard to trigger the updating of data and checking the status of connected repositories.</p>
+<p><img src=/images/dashboard.png alt="DB 2 Git"></p>
+<p>When opening the dashboard the status of the configured repositories is requested. The colors of
+of the rows signal the status of the respective repository.</p>
+<table>
+<thead>
+<tr>
+<th>color</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>orange</td>
+<td>new - the repository is configured but has not yet been deployed into TEI-Publisher. The &lsquo;incremental&rsquo; button is disabled as the data need to be checked out before.</td>
+</tr>
+<tr>
+<td>green</td>
+<td>up-to-date - the are no differences between data in the database and the repository. &lsquo;Incremental&rsquo; can be used to trigger update of differences.</td>
+</tr>
+<tr>
+<td>blue</td>
+<td>behind - the data in the database are behind the status in the repository. An update is needed</td>
+</tr>
+<tr>
+<td>red</td>
+<td>error - a configuration or connection problem occured</td>
+</tr>
+</tbody>
+</table>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-next" href=/tuttle-doc/getstarted/ title="Get started" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/tuttle-doc/getstarted/configuration/ title="How to configure Tuttle?"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/tuttle-doc/faq/ title="Frequently Asked Questions" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>

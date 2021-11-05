@@ -5,7 +5,7 @@
 <meta name=generator content="Hugo 0.89.0">
 <meta name=description content>
 <link rel=icon href=/tuttle-doc/images/favicon.png type=image/png>
-<title>Github :: Tuttle Documentation</title>
+<title>How to configure Tuttle? :: Tuttle Documentation</title>
 <link href=/tuttle-doc/css/nucleus.css?1636125847 rel=stylesheet>
 <link href=/tuttle-doc/css/fontawesome-all.min.css?1636125847 rel=stylesheet>
 <link href=/tuttle-doc/css/hybrid.css?1636125847 rel=stylesheet>
@@ -19,7 +19,7 @@
 <script src=/tuttle-doc/js/jquery-3.3.1.min.js?1636125847></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=/tuttle-doc/tags/github/>
+<body data-url=/tuttle-doc/getstarted/configuration/>
 <nav id=sidebar>
 <div id=header-wrapper>
 <div id=header>
@@ -47,7 +47,8 @@
 </section>
 <div class=highlightable>
 <ul class=topics>
-<li data-nav-id=/tuttle-doc/getstarted/ title="Get started" class=dd-item>
+<li data-nav-id=/tuttle-doc/getstarted/ title="Get started" class="dd-item
+parent">
 <a href=/tuttle-doc/getstarted/>
 Get started
 </a>
@@ -62,7 +63,7 @@ What is Tuttle?
 Requirements
 </a>
 </li>
-<li data-nav-id=/tuttle-doc/getstarted/configuration/ title="How to configure Tuttle?" class=dd-item>
+<li data-nav-id=/tuttle-doc/getstarted/configuration/ title="How to configure Tuttle?" class="dd-item active">
 <a href=/tuttle-doc/getstarted/configuration/>
 Configuration
 </a>
@@ -120,6 +121,12 @@ How to get an auth token
 <div class="padding highlightable">
 <div>
 <div id=top-bar>
+<div id=top-github-link>
+<a class=github-link title="Edit this page" href=https://github.com/eeditiones/tuttle-doc/edit/master/content/getstarted/configuration.md target=blank>
+<i class="fas fa-code-branch"></i>
+<span id=top-github-link-text>Edit this page</span>
+</a>
+</div>
 <div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
 <span id=sidebar-toggle-span>
 <a href=# id=sidebar-toggle data-sidebar-toggle>
@@ -128,35 +135,151 @@ How to get an auth token
 </span>
 <span id=toc-menu><i class="fas fa-list-alt"></i></span>
 <span class=links>
-<a href=/tuttle-doc/>Frequently Asked Questions</a> > <a href=/tuttle-doc/tags/>Tags</a> > Github
+<a href=/tuttle-doc/>Frequently Asked Questions</a> > <a href=/tuttle-doc/getstarted/>Get started</a> > How to configure Tuttle?
 </span>
 </div>
 <div class=progress>
 <div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#common-configuration-parameters>Common configuration parameters</a></li>
+<li><a href=#github>Github</a></li>
+<li><a href=#gitlab>Gitlab</a></li>
+</ul>
+</li>
+</ul>
+</nav>
 </div>
 </div>
 </div>
 </div>
 <div id=head-tags>
+<div class=tags>
+<a class=tag-link href=/tuttle-doc/tags/git>git</a>
+<a class=tag-link href=/tuttle-doc/tags/tuttle>tuttle</a>
+<a class=tag-link href=/tuttle-doc/tags/github>github</a>
+<a class=tag-link href=/tuttle-doc/tags/gitlab>gitlab</a>
+<a class=tag-link href=/tuttle-doc/tags/configuration>configuration</a>
+</div>
 </div>
 <div id=body-inner>
 <h1>
-tag ::
-Tags
+Get started
 </h1>
-<ul>
-<li><a href=/tuttle-doc/getstarted/requirements/>What is needed to use Tuttle?</a></li>
-<li><a href=/tuttle-doc/faq/types/>Which Git providers are supported?</a></li>
-<li><a href=/tuttle-doc/getstarted/configuration/>How to configure Tuttle?</a></li>
-<li><a href=/tuttle-doc/faq/multiple/>Can i have multiple repositories?</a></li>
-<li><a href=/tuttle-doc/faq/auth/>How to get an auth token</a></li>
-</ul>
+<h2>
+How to configure Tuttle?
+</h2>
+<p>Tuttle is configured in <code>modules/config.xqm</code> in your Tuttle installation.</p>
+<p>You may use eXide to edit the <code>config.xqm</code>.</p>
+<p>Below is an example configuration that shows an example for either Github and Gitlab. Due to the
+different API of these services the configuration differs sligtly. See parameter description
+below.</p>
+<pre tabindex=0><code>(:~
+ : Git configuration
+ :)
+declare variable $config:collections := map {
+            &quot;sample-collection-github&quot; : map {
+                &quot;vcs&quot; : &quot;github&quot;,
+                &quot;baseurl&quot; : &quot;https://api.github.com/&quot;,
+                &quot;ref&quot; : &quot;master&quot;,
+                &quot;token&quot; : &quot;146152be6a9xxxxxxxxxxx71da8f3e4faf263&quot;,
+                &quot;hookuser&quot; :  &quot;admin&quot;,
+                &quot;hookpasswd&quot; : &quot;&quot;
+                &quot;owner&quot; : &quot;Jinntec&quot;,
+                &quot;repo&quot; : &quot;tuttle-demo&quot;
+            },
+            &quot;sample-collection-gitlab&quot; : map {
+                &quot;vcs&quot; : &quot;gitlab&quot;,
+                &quot;baseurl&quot; : &quot;https://gitlab.com/api/v4/&quot;,
+                &quot;ref&quot; : &quot;master&quot;,
+                &quot;token&quot; : &quot;9vq6jmzxxxxxxxxxxobUfoM&quot;,
+                &quot;hookuser&quot; :  &quot;admin&quot;,
+                &quot;hookpasswd&quot; : &quot;&quot;,
+                &quot;project-id&quot; : &quot;25852323&quot;
+            }
+        };
+
+
+</code></pre><h3 id=common-configuration-parameters>Common configuration parameters</h3>
+<table>
+<thead>
+<tr>
+<th>Configuration Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vcs</td>
+<td>can be either &lsquo;github&rsquo; or &lsquo;gitlab&rsquo; and signifies the type of repository</td>
+</tr>
+<tr>
+<td>baseurl</td>
+<td>the base URL of the Git Service e.g. &lsquo;<a href=https://api.github.com>https://api.github.com</a></td>
+</tr>
+<tr>
+<td>ref</td>
+<td>the name of the branch to use</td>
+</tr>
+<tr>
+<td>token</td>
+<td>the authorization token for the Git service. This needs to be obtained for the respective service prior to operation.</td>
+</tr>
+<tr>
+<td>hookuser</td>
+<td>the user name used to talk to the service.</td>
+</tr>
+<tr>
+<td>hookpasswd</td>
+<td>the password for the hookuser</td>
+</tr>
+</tbody>
+</table>
+<h3 id=github>Github</h3>
+<table>
+<thead>
+<tr>
+<th>Configuration Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>owner</td>
+<td>the owning organisation in Github</td>
+</tr>
+<tr>
+<td>repo</td>
+<td>the repository name within the organisation</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>baseurl</code> plus the above parameters are used to construct the URL to access the Github repository.</p>
+<h3 id=gitlab>Gitlab</h3>
+<table>
+<thead>
+<tr>
+<th>Configuration Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>project-id</td>
+<td>Gitlab identifier for the repository. Gitlab is using this id when being accessed via its API. It is listed on the homepage of the repository.</td>
+</tr>
+</tbody>
+</table>
+<p><code>baseurl</code> plus <code>project-id</code> are used to construct the URL to access the Gitlab repository.</p>
 <footer class=footline>
 </footer>
 </div>
 </div>
 <div id=navigation>
-<a class="nav nav-next" href=/tuttle-doc/getstarted/ title="Get started" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+<a class="nav nav-prev" href=/tuttle-doc/getstarted/requirements/ title="What is needed to use Tuttle?"> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/tuttle-doc/getstarted/use/ title="how to use Tuttle?" style=margin-right:0><i class="fa fa-chevron-right"></i></a>
 </div>
 </section>
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
