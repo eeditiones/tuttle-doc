@@ -9,9 +9,9 @@
     /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3;
     /* color of anchors on titles */
-    --MENU-HEADER-BG-color: #F0F0F0;
+    --MENU-HEADER-BG-color: #2196f3;
     /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #f6a623;
+    --MENU-HEADER-BORDER-color: #1976d2;
     /*Color of menu header border */
     --MENU-SEARCH-BG-color: #f0f0f0;
     /* Search field background color (by default borders + icons) */
@@ -155,15 +155,15 @@ th:nth-child(1){
     background: var(--status-new);
     color:white;
 }
-[data-url="/getstarted/use/"] tr:nth-child(2) td:nth-child(1){
+[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(2) td:nth-child(1){
     background: var(--status-up-to-date);
     color:white;
 }
-[data-url="/getstarted/use/"] tr:nth-child(3) td:nth-child(1){
+[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(3) td:nth-child(1){
     background: var(--status-behind);
     color:white;
 }
-[data-url="/getstarted/use/"] tr:nth-child(4) td:nth-child(1){
+[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(4) td:nth-child(1){
     background: var(--status-error);
     color:white;
 }
