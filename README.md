@@ -1,6 +1,9 @@
 # Tuttle Documentation
 
-This repository contains the documentation for Tuttle - the Git interface for eXist-db. 
+This repository is used to generate the documentation for Tuttle - an OpenAPI Git interface for eXist-db.
+
+The ***[documenation website](https://eeditiones.github.io/tuttle-doc/)*** is generated with Hugo and automatically deployed to github pages on each 
+change.
 
 ## Proposing new entries
 

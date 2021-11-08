@@ -9,10 +9,9 @@ weight = 2
 
 This is the documentation site for 'Tuttle - a eXist-db Git integration'
 
-This website collects: 
+This website contains: 
 * Get started
-* OpenAPI endpoint documentation
-* frequently asked questions around Tuttle
+* Frequently Asked Questions
 
 ## How to contribute to this FAQ
 
