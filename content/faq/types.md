@@ -7,4 +7,4 @@ weight: 1
 
 Tuttle supports either [Github](https://github.com) and [Gitlab](https://about.gitlab.com/) repositories.
 
-![eXist-db](/tuttle-doc/images/types.png)
+![eXist-db](/images/types.png)
