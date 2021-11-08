@@ -185,6 +185,8 @@ th:nth-child(1){
 #body .tags a.tag-link:after{
     display: none;
 }
+/*
 #homelinks{
     display: none;
 }
+*/
