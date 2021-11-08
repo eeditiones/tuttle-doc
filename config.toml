@@ -5,7 +5,7 @@ theme = "learn"
 
 [params]
     themeVariant = "tuttle"
-    siteLandingPage = "https://eeditiones.github.io/tuttle-doc/"
+    siteLandingPage = "https://eeditiones.github.io/tuttle-doc"
     landingPageName = "<i class='fas fa-home'></i> Tuttle Documentation"
     editURL = "https://github.com/eeditiones/tuttle-doc/edit/main/content/"
 
