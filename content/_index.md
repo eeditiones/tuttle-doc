@@ -5,9 +5,14 @@ chapter = false
 weight = 2
 +++
 
-# Frequently Asked Questions
+# Tuttle Documentation
 
-This website collects frequently asked questions around Tuttle.
+This is the documentation site for 'Tuttle - a eXist-db Git integration'
+
+This website collects: 
+* Get started
+* OpenAPI endpoint documentation
+* frequently asked questions around Tuttle
 
 ## How to contribute to this FAQ
 
