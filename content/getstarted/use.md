@@ -27,7 +27,7 @@ of the rows signal the status of the respective repository.
 
 | color | Status |
 | ----- | ------ |
-| orange | new - the repository is configured but has not yet been deployed into TEI-Publisher. The 'incremental' button is disabled as the data need to be checked out before. |
+| orange | new - the repository is configured but has not yet been deployed into TEI Publisher. The 'incremental' button is disabled as the data need to be checked out before. |
 | green | up-to-date - the are no differences between data in the database and the repository. 'Incremental' can be used to trigger update of differences. |
 | blue | behind - the data in the database are behind the status in the repository. An update is needed |
 | red | error - a configuration or connection problem occured |

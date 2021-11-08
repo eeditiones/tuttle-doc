@@ -14,7 +14,7 @@
       
       <guid>https://eeditiones.github.io/tuttle-doc/getstarted/tuttle/</guid>
       <description>Tuttle is an eXist-db application that adds version control to data collections in eXist-db.
-It is part of and published by the e-editiones society and can be used by other eXist-db applications such as TEI-Publisher to synchronize data collections between the database and a Git repository.
+It is part of and published by the e-editiones society and can be used by other eXist-db applications such as TEI Publisher to synchronize data collections between the database and a Git repository.
 Tuttle wraps the APIs of the Git service providers under a single, common OpenAPI allowing projects to seemlessly add version control to their data.</description>
     </item>
     

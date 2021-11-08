@@ -11,7 +11,7 @@ weight: 1
 ***Tuttle*** is an eXist-db application that adds version control to data collections in eXist-db.
 
 It is part of and published by the [e-editiones society](https://e-editiones.org/) and can be used by
-other eXist-db applications such as TEI-Publisher to synchronize
+other eXist-db applications such as TEI Publisher to synchronize
 data collections between the database and a Git repository. 
 
 ***Tuttle*** wraps the APIs of the Git service providers under a single, common OpenAPI allowing
