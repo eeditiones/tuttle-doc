@@ -3,6 +3,7 @@ title = "Frequently Asked Questions"
 date = 2020-12-11T10:42:31+01:00
 chapter = false
 weight = 2
+isHome = true
 +++
 
 # Tuttle Documentation

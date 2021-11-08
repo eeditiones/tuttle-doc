@@ -6,7 +6,7 @@ tags: ["git", "tuttle"]
 weight: 1
 ---
 
-![Tuttle logo](/tuttle-doc/images/HPTuttle-1866.png)
+![Tuttle logo](/images/HPTuttle-1866.png)
 
 ***Tuttle*** is an eXist-db application that adds version control to data collections in eXist-db.
 
@@ -35,13 +35,13 @@ In this scenario users use their own tools to edit documents and push their chan
 With Tuttle enabled the configured eXist-db collection can be updated completely or incrementally on request
 or by using a git workflow for automatic deployment.
 
-![DB 2 Git](/tuttle-doc/images/git2db.png)
+![DB 2 Git](/images/git2db.png)
 
 ### App to Git
 
 An application may choose to use the Tuttle application to synchronize their database collections to a Git repository and allow
 users without Git knowledge to version their documents. 
 
-![App 2 Git](/tuttle-doc/images/app2git.png)
+![App 2 Git](/images/app2git.png)
 
 In this case the application will use the Tuttle API to offer a custom integration into its user interface.
