@@ -147,10 +147,10 @@ p{
 .summary header h4 {
     margin-top: 0;
 }
-
-[data-url="/tuttle-doc/getstarted/tuttle/"] img{
+[data-url="/tuttle-doc/getstarted/tuttle/"] [alt="Tuttle logo"]{
     border-radius:50%;
 }
+
 th:nth-child(1){
     width: 20%;
 }
