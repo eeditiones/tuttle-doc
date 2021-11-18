@@ -12,7 +12,7 @@ weight: 1
 
 It is part of and published by the [e-editiones society](https://e-editiones.org/) and can be used by
 other eXist-db applications such as TEI Publisher to synchronize
-data collections between the database and a Git repository. 
+data collections between a Git repository and the database. 
 
 ***Tuttle*** wraps the APIs of the Git service providers under a single, common OpenAPI allowing
 projects to seemlessly add version control to their data.
