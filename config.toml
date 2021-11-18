@@ -12,7 +12,7 @@ canonifyURLs = true
 
 [[menu.shortcuts]]
     name = "<i class='fas fa-tags'></i> Tags"
-    url = "/tags"
+    url = "tags"
     weight = 30
 
 [outputs]

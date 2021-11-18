@@ -43,7 +43,7 @@
 
 body {
     color: var(--MAIN-TEXT-color) !important;
-    font-size: 1rem;
+    font-size: 1.2rem !important;
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
@@ -147,27 +147,27 @@ p{
 .summary header h4 {
     margin-top: 0;
 }
-
-[data-url="/tuttle-doc/getstarted/tuttle/"] img{
+[data-url$="/getstarted/tuttle/"] [alt="Tuttle logo"]{
     border-radius:50%;
 }
+
 th:nth-child(1){
     width: 20%;
 }
 
-[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(1) td:nth-child(1){
+[data-url$="/getstarted/use/"] tr:nth-child(1) td:nth-child(1){
     background: var(--status-new);
     color:white;
 }
-[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(2) td:nth-child(1){
+[data-url$="/getstarted/use/"] tr:nth-child(2) td:nth-child(1){
     background: var(--status-up-to-date);
     color:white;
 }
-[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(3) td:nth-child(1){
+[data-url$="/getstarted/use/"] tr:nth-child(3) td:nth-child(1){
     background: var(--status-behind);
     color:white;
 }
-[data-url="/tuttle-doc/getstarted/use/"] tr:nth-child(4) td:nth-child(1){
+[data-url$="/getstarted/use/"] tr:nth-child(4) td:nth-child(1){
     background: var(--status-error);
     color:white;
 }
@@ -185,6 +185,13 @@ th:nth-child(1){
 #body .tags a.tag-link:after{
     display: none;
 }
+
+ul,ol{
+    font-size: 1.2rem;
+}
+
+/*
 #homelinks{
     display: none;
 }
+*/
